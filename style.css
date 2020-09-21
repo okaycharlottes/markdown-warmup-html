@@ -1,0 +1,64 @@
+body{ 
+    background-color: aliceblue;
+    font-style: arial;
+    color: gray;
+    text-align: justify;
+    padding: 100px;
+
+}
+
+h1{ 
+    text-align: justify;
+    color: red;
+    font-size: 100px;
+
+}
+
+h4{
+    color: indianred;
+    text-align: justify;
+
+}
+
+img{
+    border-radius: 70%;
+    padding-top: 10px;
+    height: 100px;
+    width: 150px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+h6{
+    font-size: 80px;
+    font-style: italic;
+    color : rgb(112, 106, 106); 
+}
+blockquote {
+    margin: 0;
+}
+
+blockquote p {
+    padding: 15px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+ul{
+    font-size: 40px;
+}
